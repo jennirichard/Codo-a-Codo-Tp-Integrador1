@@ -77,12 +77,21 @@
       </section>
 
       <section2>
-        <h1>Conocé a los oradores </h1>
+        <div>
+          <h1>
+            <p class="text-center fs-6">CONOCE A LOS </p>
+          </h1>
+          <H2>
+            <p class="text-center">ORADORES </p>
+          </H2>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card h-100">
-              <img src="imagenes/steve.jpg" class="card-img-top" alt="Steve Jobs">
+            <div class="card h-100" style="padding-left: 100px;">  
+              <img src="imagenes/steve1.jpg" class="card-img-top" alt="Steve Jobs">
               <div class="card-body">
+                <button type="button" class="btn btn-warning btn-sm">JavaScript</button>
+                <button type="button" class="btn btn-primary btn-sm">React</button>
                 <h5 class="card-title">Steve Jobs</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus vel veritatis
                   eveniet soluta aut aspernatur itaque. Labore maiores voluptate modi consequatur odio ducimus optio
@@ -92,9 +101,11 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100" style="padding-right: 80px; padding-left: 10px;">
               <img src="imagenes/bill.jpg" class="card-img-top" alt="Bill Gates">
               <div class="card-body">
+                <button type="button" class="btn btn-warning btn-sm">JavaScript</button>
+                <button type="button" class="btn btn-primary btn-sm">React</button>
                 <h5 class="card-title">Bill Gates</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem accusamus vero
                   laborum quis perferendis, incidunt fugit illo nulla molestias consectetur, nisi exercitationem. Rem
@@ -104,9 +115,11 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100" style="padding-right: 100px;">
               <img src="imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
               <div class="card-body">
+                <button type="button" class="btn btn-secondary btn-sm">Negocios</button>
+                <button type="button" class="btn btn-danger btn-sm">Startups</button>
                 <h5 class="card-title">Ada Lovelace</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta odit sunt
                   ipsa, earum vel expedita quae optio? Deleniti autem quibusdam dolor ipsum, repudiandae nisi odit quam
@@ -124,7 +137,9 @@
                 <img src="imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="Playa">
               </div>
               <div class="col-md-6" style="background-color:rgb(74, 74, 74)">
+                <span class="border-start border-white"></span>
                 <div class="card-body text-white">
+
                   <h5 class="card-title">Buenos Aires - Octubre</h5>
 
                   <p class="card-text"><small class="text-white">Buenos Aires es la provincia y localidad más grande del
@@ -142,18 +157,30 @@
 
           <section4>
             <div class="conteiner">
-              <h2>CONVIÉRTETE EN UN </h2>
-              <H3>ORADOR</H3>
-              <hH4>Anotate como orador para dar una charla ignite. Cuéntanos de que quieres hablar! </h3>
-                <form>
+              <h3>
+                <p class="text-center fs-6">CONVIÉRTETE EN UN </p>
+              </h3>
+              <H4>
+                <p class="text-center">ORADOR </p>
+              </H4>
+              <hH5>
+                <p class="text-center fs-6">Anotate como orador para dar una <span
+                    class="text-decoration-underline">charla ignite.</span> Cuéntanos de que quieres hablar!</p>
+              </hH5>
+              <form>
 
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Nombre</label>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Nombre</label>
+                    </div>
                   </div>
-                  <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Apellido</label>
+                  <div class="col">
+                    <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Apellido</label>
+                    </div>
                   </div>
 
                   <div class="form-floating">
@@ -161,16 +188,16 @@
                     <label for="floatingPassword">¿De qué quieres hablar?</label>
                     <div id="emailHelp" class="form-text">Recuerda escribir un título para tu charla.</div>
                   </div>
-                  <button type="submit" class="btn btn-primary" style="background-color: green">Enviar</button>
-                </form>
+                  <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary" style="background-color: green">Enviar</button>
+                  </div>
+
+              </form>
             </div>
             </section>
   </main>
   <footer>
     <ul class="nav justify-content-center" style="background-color:rgba(62, 100, 206, 0.959)">
-      <li class="nav-item">
-        <a class="nav-link active text-light" aria-current="page" href="#">Active</a>
-      </li>
       <li class="nav-item">
         <a class="nav-link text-light" href="#">Preguntas frecuentes</a>
       </li>
